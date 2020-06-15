@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_weight="1"
+        android:id="@+id/fragment_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <RadioGroup
+        android:id="@+id/rd_group"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/btn_homepage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/img_homepage"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="@drawable/tx_text"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/btn_chat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/img_chat"
+            android:gravity="center"
+            android:text="易聊"
+            android:textColor="@drawable/tx_text"
+            android:textSize="15dp" />
+
+        <!--<RadioButton-->
+        <!--android:id="@+id/btn_social"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:button="@null"-->
+        <!--android:drawableTop="@drawable/img_add"-->
+        <!--android:textSize="15dp" />-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/add" />
+
+        <RadioButton
+            android:id="@+id/btn_message"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/img_message"
+            android:gravity="center"
+            android:text="消息"
+            android:textColor="@drawable/tx_text"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/btn_my"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/img_my"
+            android:gravity="center"
+            android:text="我的"
+            android:textColor="@drawable/tx_text"
+            android:textSize="15dp" />
+    </RadioGroup>
+
+
+</LinearLayout>

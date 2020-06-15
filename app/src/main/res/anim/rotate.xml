@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:fromDegrees="0"
+    android:toDegrees="360"
+    android:fillAfter="true"
+    android:fillEnabled="true"
+    android:duration="1000"
+    android:repeatCount="5">
+    <!--补间动画 旋转-->
+    <!--pivotX 旋转中心X-->
+    <!--pivotY 旋转中心Y-->
+    <!--fromDegrees 开始旋转的角度-->
+    <!--toDegrees 结束旋转的角度-->
+    <!--fillAfter 是否保持动画完成后的效果-->
+    <!--duration 动画执行的时间-->
+    <!--repeatCount 是否无限执行： “-1” 会一直执行动画-->
+</rotate>

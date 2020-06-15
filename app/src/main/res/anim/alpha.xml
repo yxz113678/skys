@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--显示、隐藏-->
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromAlpha="1"
+    android:toAlpha="0"
+    android:repeatCount="5"
+    android:duration="2000">
+    <!--fromAlpha 开始的透明度 “1” 完全不透明 “0” 完全透明-->
+    <!--toAlpha 结束时的透明度-->
+    <!--repeatCount 是否无限执行： “-1” 会一直执行动画-->
+</alpha>
